@@ -70,13 +70,27 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 600px;
     margin: auto;
+    gap: 20px;
 }
 
 .tarjetaCaracteristica {
-    justify-self: center;
     text-align: center;
+    justify-content: center;
+    display: grid !important;
+    width: 90%;
+    color: #002b39 !important;
+    margin: 15px 6% !important;
+    padding: 22px 5% !important;
+    border-radius: 10px !important;
+    box-shadow: 0 20px 15px 0 rgba(26, 72, 100, 0.1) !important;
+    border: solid 1px #c3d5e0 !important;
+    background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0feff) !important;
 }
 
 .negritas {
     font-weight: bolder;
+}
+
+#ultimoBoton {
+    margin-top: 50px;
 }
