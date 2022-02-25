@@ -76,7 +76,6 @@ body {
 .tarjetaCaracteristica {
     text-align: center;
     justify-content: center;
-    display: grid !important;
     width: 90%;
     color: #002b39 !important;
     margin: 15px 6% !important;
