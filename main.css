@@ -64,3 +64,19 @@ body {
 #tarjeta >h3,#tarjeta >h5,.estrellas{
     display: inline;
 }
+
+.cuadricula {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 600px;
+    margin: auto;
+}
+
+.tarjetaCaracteristica {
+    justify-self: center;
+    text-align: center;
+}
+
+.negritas {
+    font-weight: bolder;
+}
